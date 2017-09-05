@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:sysADL_Sintax="com.sysADL_Sintax" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_nBCIEJJEEeexRK2X6Zh6bw" selectedViews="_rxcjEJJEEeexRK2X6Zh6bw _rxoJQJJEEeexRK2X6Zh6bw _rzNdoJJEEeexRK2X6Zh6bw _rztz8JJEEeexRK2X6Zh6bw _rz3k8JJEEeexRK2X6Zh6bw" version="11.1.0.201608251200">
+    <semanticResources>My.sysadl</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_rxcjEJJEEeexRK2X6Zh6bw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Behavioral']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_rxoJQJJEEeexRK2X6Zh6bw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_rx9gcJJEEeexRK2X6Zh6bw" name="Package Diagram" representation="_rx9gcZJEEeexRK2X6Zh6bw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.Package']"/>
+        <target xmi:type="sysADL_Sintax:Model" href="My.sysadl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_rzNdoJJEEeexRK2X6Zh6bw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_rzkqAJJEEeexRK2X6Zh6bw" name="Requirements Diagram" representation="_rzkqAZJEEeexRK2X6Zh6bw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']"/>
+        <target xmi:type="sysADL_Sintax:Model" href="My.sysadl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_rztz8JJEEeexRK2X6Zh6bw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Executable']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_rz3k8JJEEeexRK2X6Zh6bw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Allocation']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_r0geIJJEEeexRK2X6Zh6bw" name="Allocation Table for SysADLArchitecture" representation="_r0geIZJEEeexRK2X6Zh6bw">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Allocation']/@ownedRepresentations[name='SysADL.Allocation.Table']"/>
+        <target xmi:type="sysADL_Sintax:Model" href="My.sysadl#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_rx9gcZJEEeexRK2X6Zh6bw" name="Package Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_rx9gcpJEEeexRK2X6Zh6bw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_rx9gc5JEEeexRK2X6Zh6bw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_rywxsJJEEeexRK2X6Zh6bw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_rywxsZJEEeexRK2X6Zh6bw" type="Sirius" element="_rx9gcZJEEeexRK2X6Zh6bw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_rywxs5JEEeexRK2X6Zh6bw" type="2002" element="_rx9gdJJEEeexRK2X6Zh6bw">
+          <children xmi:type="notation:Node" xmi:id="_ry6isJJEEeexRK2X6Zh6bw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_ry6isZJEEeexRK2X6Zh6bw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_ry6itJJEEeexRK2X6Zh6bw" type="3007" element="_rx9gdpJEEeexRK2X6Zh6bw">
+              <children xmi:type="notation:Node" xmi:id="_rzDsoJJEEeexRK2X6Zh6bw" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_rzDsoZJEEeexRK2X6Zh6bw" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_rzDsopJEEeexRK2X6Zh6bw" type="3003" element="_rx9gd5JEEeexRK2X6Zh6bw">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_rzDso5JEEeexRK2X6Zh6bw" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rzDspJJEEeexRK2X6Zh6bw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_ry6itZJEEeexRK2X6Zh6bw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ry6itpJEEeexRK2X6Zh6bw" width="100" height="60"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ry6ispJEEeexRK2X6Zh6bw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ry6is5JEEeexRK2X6Zh6bw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rywxtJJEEeexRK2X6Zh6bw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rywxtZJEEeexRK2X6Zh6bw" width="600" height="400"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_rywxspJEEeexRK2X6Zh6bw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_rx9gdJJEEeexRK2X6Zh6bw" name="bdd [pkg] SysADLArchitecture" width="60" height="40">
+      <target xmi:type="sysADL_Sintax:Model" href="My.sysadl#/"/>
+      <semanticElements xmi:type="sysADL_Sintax:Model" href="My.sysadl#/"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_rx9gdZJEEeexRK2X6Zh6bw" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.Package']/@defaultLayer/@containerMappings[name='Pkg.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.Package']/@defaultLayer/@containerMappings[name='Pkg.Self']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_rx9gdpJEEeexRK2X6Zh6bw" name="&lt;&lt;package>>&#xA;SysADL.types" width="10" height="6" resizeKind="NSEW">
+        <target xmi:type="sysADL_Sintax:Package" href="My.sysadl#//@packages[name='SysADL.types']"/>
+        <semanticElements xmi:type="sysADL_Sintax:Package" href="My.sysadl#//@packages[name='SysADL.types']"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_rx9gd5JEEeexRK2X6Zh6bw" showIcon="false" labelPosition="node" width="10" height="6" color="230,230,250">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.Package']/@defaultLayer/@containerMappings[name='Pkg.Self']/@subNodeMappings[name='Pkg.Package']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.Package']/@defaultLayer/@containerMappings[name='Pkg.Self']/@subNodeMappings[name='Pkg.Package']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.Package']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_rx9geJJEEeexRK2X6Zh6bw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.Package']/@defaultLayer"/>
+    <target xmi:type="sysADL_Sintax:Model" href="My.sysadl#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_rzkqAZJEEeexRK2X6Zh6bw" name="Requirements Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_rzkqApJEEeexRK2X6Zh6bw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_rzkqA5JEEeexRK2X6Zh6bw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_rzkqB5JEEeexRK2X6Zh6bw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_rzkqCJJEEeexRK2X6Zh6bw" type="Sirius" element="_rzkqAZJEEeexRK2X6Zh6bw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_rzkqCpJEEeexRK2X6Zh6bw" type="2002" element="_rzkqBJJEEeexRK2X6Zh6bw">
+          <children xmi:type="notation:Node" xmi:id="_rzkqDZJEEeexRK2X6Zh6bw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_rzkqDpJEEeexRK2X6Zh6bw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_rzkqD5JEEeexRK2X6Zh6bw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_rzkqEJJEEeexRK2X6Zh6bw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_rzkqC5JEEeexRK2X6Zh6bw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rzkqDJJEEeexRK2X6Zh6bw"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_rzkqCZJEEeexRK2X6Zh6bw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_rzkqBJJEEeexRK2X6Zh6bw" name="req SysADLArchitecture">
+      <target xmi:type="sysADL_Sintax:Model" href="My.sysadl#/"/>
+      <semanticElements xmi:type="sysADL_Sintax:Model" href="My.sysadl#/"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_rzkqBZJEEeexRK2X6Zh6bw" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_rzkqBpJEEeexRK2X6Zh6bw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer"/>
+    <target xmi:type="sysADL_Sintax:Model" href="My.sysadl#/"/>
+  </diagram:DSemanticDiagram>
+  <table:DTable xmi:id="_r0geIZJEEeexRK2X6Zh6bw" name="Allocation Table for SysADLArchitecture">
+    <target xmi:type="sysADL_Sintax:Model" href="My.sysadl#/"/>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_r0geIpJEEeexRK2X6Zh6bw" label="Source" featureName="source">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Allocation']/@ownedRepresentations[name='SysADL.Allocation.Table']/@ownedColumnMappings[name='SysADL.Alloc.Source']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" xmi:id="_r0geI5JEEeexRK2X6Zh6bw" label="Target" featureName="target">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Allocation']/@ownedRepresentations[name='SysADL.Allocation.Table']/@ownedColumnMappings[name='SysADL.Alloc.Target']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/SysADL.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Allocation']/@ownedRepresentations[name='SysADL.Allocation.Table']"/>
+  </table:DTable>
+</xmi:XMI>
